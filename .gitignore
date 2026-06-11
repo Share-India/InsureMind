@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.env
+backend/.env
+frontend/.env
+.DS_Store
+get_logs.js
+update_config.js
+test_edge.js
+test_msg91*
