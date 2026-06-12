@@ -36,10 +36,10 @@ const Archive = () => {
       {/* Topbar */}
       <header className="topbar bg-white" style={{ width: '100%', borderBottom: '1px solid #e2e8f0', zIndex: 50 }}>
         <div className="topbar-left" style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
-          <div className="topbar-brand" style={{ display: 'flex', alignItems: 'center', gap: '10px', minWidth: 'auto', marginLeft: '-0.5rem' }}>
+          <div className="topbar-brand" style={{ display: 'flex', alignItems: 'center', gap: '6px', minWidth: 'auto', marginLeft: '-0.5rem' }}>
             <div style={{
-              backgroundColor: '#344588',
-              border: '1px solid #5465a6',
+              backgroundColor: '#3d52a0',
+              border: '1px solid #6b80d6',
               borderRadius: '10px',
               display: 'flex',
               alignItems: 'center',

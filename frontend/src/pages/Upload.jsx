@@ -92,10 +92,10 @@ const Upload = () => {
             <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="sidebar-toggle-btn" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '0.5rem', display: 'flex', alignItems: 'center' }}>
               <Menu size={24} color="var(--text-main)" />
             </button>
-            <div className="topbar-brand" style={{ display: 'flex', alignItems: 'center', gap: '10px', minWidth: 'auto', marginLeft: '-0.5rem' }}>
+            <div className="topbar-brand" style={{ display: 'flex', alignItems: 'center', gap: '6px', minWidth: 'auto', marginLeft: '-0.5rem' }}>
               <div style={{
-                backgroundColor: '#344588',
-                border: '1px solid #5465a6',
+                backgroundColor: '#3d52a0',
+                border: '1px solid #6b80d6',
                 borderRadius: '10px',
                 display: 'flex',
                 alignItems: 'center',

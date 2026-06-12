@@ -148,10 +148,10 @@ const AdminDashboard = () => {
     <div style={{ display: 'flex', height: '100vh', backgroundColor: '#f8fafc', color: '#0f172a', fontFamily: '"Inter", sans-serif' }}>
       {/* Sidebar */}
       <nav style={{ width: '250px', backgroundColor: '#ffffff', borderRight: '1px solid #e2e8f0', display: 'flex', flexDirection: 'column', padding: '1.5rem 0', flexShrink: 0, zIndex: 20 }}>
-        <div style={{ padding: '0 1.5rem', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+        <div style={{ padding: '0 1.5rem', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
           <div style={{
-              backgroundColor: '#344588',
-              border: '1px solid #5465a6',
+              backgroundColor: '#3d52a0',
+              border: '1px solid #6b80d6',
               borderRadius: '8px',
               display: 'flex',
               alignItems: 'center',

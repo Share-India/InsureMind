@@ -123,13 +123,13 @@ const Login = () => {
           <div style={{ display: 'inline-flex', flexDirection: 'column', alignItems: 'flex-end', marginTop: '-1.5rem', marginBottom: '1.5rem', marginLeft: '-8.5rem' }}>
             <div className="login-brand" style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }}>
               <div style={{
-                backgroundColor: '#344588',
-                border: '1px solid #5465a6',
+                backgroundColor: '#3d52a0',
+                border: '1px solid #6b80d6',
                 borderRadius: '14px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                marginRight: '1rem',
+                marginRight: '0.5rem',
                 boxShadow: '0 4px 12px rgba(52, 69, 136, 0.4)',
                 width: '56px',
                 height: '56px',
