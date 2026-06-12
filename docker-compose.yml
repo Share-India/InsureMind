@@ -16,7 +16,7 @@ services:
       dockerfile: Dockerfile
     container_name: insuremind_frontend
     ports:
-      - "8080:80"
+      - "8085:80"
     depends_on:
       - backend
     restart: unless-stopped
