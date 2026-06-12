@@ -92,9 +92,31 @@ const Upload = () => {
             <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="sidebar-toggle-btn" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '0.5rem', display: 'flex', alignItems: 'center' }}>
               <Menu size={24} color="var(--text-main)" />
             </button>
-            <div className="topbar-brand" style={{ display: 'flex', alignItems: 'center', gap: '0', minWidth: 'auto', marginLeft: '-0.5rem' }}>
-              <img src={insureMindLogo} alt="InsureMind" style={{ height: '40px' }} />
-              <h2 style={{ fontSize: '1.45rem', margin: 0, marginLeft: '-0.75rem', fontWeight: 700, color: 'var(--dark-accent)', letterSpacing: '-0.5px' }}>InsureMind</h2>
+            <div className="topbar-brand" style={{ display: 'flex', alignItems: 'center', gap: '10px', minWidth: 'auto', marginLeft: '-0.5rem' }}>
+              <div style={{
+                backgroundColor: '#344588',
+                border: '1px solid #5465a6',
+                borderRadius: '10px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 2px 8px rgba(52, 69, 136, 0.3)',
+                width: '36px',
+                height: '36px',
+                overflow: 'hidden',
+                position: 'relative'
+              }}>
+                <img src={insureMindLogo} alt="InsureMind Logo" style={{ 
+                  height: '26px', 
+                  maxWidth: 'none',
+                  position: 'absolute',
+                  left: '-9px',
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  filter: 'brightness(0) invert(1) drop-shadow(0px 1px 2px rgba(0,0,0,0.15))' 
+                }} />
+              </div>
+              <h2 style={{ fontSize: '1.45rem', margin: 0, fontWeight: 700, color: 'var(--dark-accent)', letterSpacing: '-0.5px' }}>InsureMind</h2>
             </div>
           </div>
         </div>

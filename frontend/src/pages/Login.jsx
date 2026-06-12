@@ -122,7 +122,30 @@ const Login = () => {
         <div className="login-content">
           <div style={{ display: 'inline-flex', flexDirection: 'column', alignItems: 'flex-end', marginTop: '-1.5rem', marginBottom: '1.5rem', marginLeft: '-8.5rem' }}>
             <div className="login-brand" style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }}>
-              <img src={insureMindLogo} alt="InsureMind Logo" style={{ height: '60px', marginRight: '-1.5rem' }} />
+              <div style={{
+                backgroundColor: '#344588',
+                border: '1px solid #5465a6',
+                borderRadius: '14px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                marginRight: '1rem',
+                boxShadow: '0 4px 12px rgba(52, 69, 136, 0.4)',
+                width: '56px',
+                height: '56px',
+                overflow: 'hidden',
+                position: 'relative'
+              }}>
+                <img src={insureMindLogo} alt="InsureMind Logo" style={{ 
+                  height: '48px', 
+                  maxWidth: 'none',
+                  position: 'absolute',
+                  left: '-16px', // Perfectly mathematically centered
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  filter: 'brightness(0) invert(1)' 
+                }} />
+              </div>
               <h2 style={{ margin: 0, fontSize: '2.5rem', fontWeight: '900', fontFamily: '"Roboto Slab", serif' }}>InsureMind</h2>
             </div>
             <div style={{ marginTop: '-0.5rem', fontSize: '0.9rem', color: '#6b7280', fontWeight: '500' }}>

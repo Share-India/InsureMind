@@ -149,7 +149,29 @@ const AdminDashboard = () => {
       {/* Sidebar */}
       <nav style={{ width: '250px', backgroundColor: '#ffffff', borderRight: '1px solid #e2e8f0', display: 'flex', flexDirection: 'column', padding: '1.5rem 0', flexShrink: 0, zIndex: 20 }}>
         <div style={{ padding: '0 1.5rem', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <img src={insureMindLogo} alt="InsureMind" style={{ height: '32px' }} />
+          <div style={{
+              backgroundColor: '#344588',
+              border: '1px solid #5465a6',
+              borderRadius: '8px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              boxShadow: '0 2px 8px rgba(52, 69, 136, 0.3)',
+              width: '28px',
+              height: '28px',
+              overflow: 'hidden',
+              position: 'relative'
+            }}>
+              <img src={insureMindLogo} alt="InsureMind Logo" style={{ 
+                height: '20px', 
+                maxWidth: 'none',
+                position: 'absolute',
+                left: '-7px',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                filter: 'brightness(0) invert(1) drop-shadow(0px 1px 2px rgba(0,0,0,0.15))'
+              }} />
+          </div>
           <div>
             <h2 style={{ fontSize: '1.1rem', fontWeight: 700, margin: 0, color: '#0f172a' }}>Admin Portal</h2>
             <p style={{ fontSize: '0.75rem', color: '#64748b', margin: 0 }}>IT Operations</p>
