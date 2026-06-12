@@ -352,10 +352,10 @@ const Chat = () => {
                 position: 'relative'
               }}>
                 <img src={insureMindLogo} alt="InsureMind Logo" style={{ 
-                  height: '26px', 
+                  height: '38px', 
                   maxWidth: 'none',
                   position: 'absolute',
-                  left: '-9px',
+                  left: '-13px',
                   top: '50%',
                   transform: 'translateY(-50%)',
                   filter: 'brightness(0) invert(1) drop-shadow(0px 1px 2px rgba(0,0,0,0.15))' 
