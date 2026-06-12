@@ -150,8 +150,8 @@ const AdminDashboard = () => {
       <nav style={{ width: '250px', backgroundColor: '#ffffff', borderRight: '1px solid #e2e8f0', display: 'flex', flexDirection: 'column', padding: '1.5rem 0', flexShrink: 0, zIndex: 20 }}>
         <div style={{ padding: '0 1.5rem', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
           <div style={{
-              backgroundColor: '#3d52a0',
-              border: '1px solid #6b80d6',
+              backgroundColor: '#546edb',
+              border: '1px solid #7a91ef',
               borderRadius: '8px',
               display: 'flex',
               alignItems: 'center',

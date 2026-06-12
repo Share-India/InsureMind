@@ -94,8 +94,8 @@ const Upload = () => {
             </button>
             <div className="topbar-brand" style={{ display: 'flex', alignItems: 'center', gap: '6px', minWidth: 'auto', marginLeft: '-0.5rem' }}>
               <div style={{
-                backgroundColor: '#3d52a0',
-                border: '1px solid #6b80d6',
+                backgroundColor: '#546edb',
+                border: '1px solid #7a91ef',
                 borderRadius: '10px',
                 display: 'flex',
                 alignItems: 'center',
