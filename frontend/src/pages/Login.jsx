@@ -137,10 +137,10 @@ const Login = () => {
                 position: 'relative'
               }}>
                 <img src={insureMindLogo} alt="InsureMind Logo" style={{ 
-                  height: '48px', 
+                  height: '60px', 
                   maxWidth: 'none',
                   position: 'absolute',
-                  left: '-16px', // Perfectly mathematically centered
+                  left: '-28px',
                   top: '50%',
                   transform: 'translateY(-50%)',
                   filter: 'brightness(0) invert(1)' 
