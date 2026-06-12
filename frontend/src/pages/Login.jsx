@@ -140,7 +140,7 @@ const Login = () => {
                   height: '54px', 
                   maxWidth: 'none',
                   position: 'absolute',
-                  left: '-25px',
+                  left: '-23px',
                   top: '50%',
                   transform: 'translateY(-50%)',
                   filter: 'brightness(0) invert(1)' 
